@@ -521,6 +521,22 @@ h1 {
   z-index: 999;
 }
 
+p {
+  font-size: 20px;
+  color: white;
+  font-family: sans-serif;
+  line-height: 40px;
+  padding: 20px;
+  width: 70%;
+  left: 4%;
+  bottom: 50%;
+  background: rgba(0, 10, 10, 0.4);
+  border-radius: 25px;
+  transform: translateZ(100px) scale(0.6);
+  position: absolute;
+  z-index: 999;
+}
+
 .title {
   text-align: center;
   position: absolute;
@@ -581,6 +597,11 @@ h1 {
 .base2 {
   transform: translateZ(-3px) scale(4);
   z-index: 15;
+}
+
+.base4 {
+  transform: translateZ(0) scale(1);
+  z-index: 30;
 }
 
 .breck1 {
@@ -657,6 +678,12 @@ h1 {
 
 #group3 .breck6 {
   background: url("../img/breck6.png") 50% 50% no-repeat;
+  background-size: cover;
+}
+
+/* Group 4 */
+#group4 .base4 {
+  background: #819090;
   background-size: cover;
 }
 
