@@ -121,7 +121,7 @@ p {
 .base1 {
   // -webkit-transform: translateZ(-100px);
   transform: translateZ(-2px) scale(3);
-  z-index: 14;
+  // z-index: 14;
 
 }
 
@@ -129,7 +129,7 @@ p {
   // -webkit-transform: translateZ(-1px) scale(2);
   // transform: translateZ(0) scale(1);
   transform: translateZ(-3px) scale(4);
-  z-index: 15;
+  // z-index: 15;
 }
 
 .base4 {
@@ -184,7 +184,7 @@ p {
 
 /* slide over group 2 */
 #group1 {
-  // z-index: 8;
+  z-index: 10;
 }
 
 #group1 .base {
@@ -194,7 +194,7 @@ p {
 /* Flatirons */
 
 #group2 {
-	// z-index: 6;
+	z-index: 8;
 }
 #group2 .base1 { 
 	background: url('../img/flatirons1.png') 50% 50% no-repeat;
@@ -209,10 +209,9 @@ p {
 
 /* Group 3 - BRECK */
 
-// #group3 {
-// 	padding: 100vh;
-// 	z-index: 15;
-// }
+#group3 {
+	z-index: 10;
+}
 
 
 #group3 .breck1 {
@@ -252,10 +251,36 @@ p {
 
 /* Group 4 */
 
+#group4 {
+	z-index: 8
+}
+
 #group4 .base4 {
   background: $lightgray;
   background-size:cover;
 }
+
+/* Group 5 */
+
+
+
+#group5 {
+	z-index: 9;
+}
+#group5 .base1 { 
+	background: url('../img/face1.png') 50% 50% no-repeat;
+	background-size: cover;
+	
+}
+
+#group5 .base2 { 
+	background: url('../img/face2.png') 50% 50% no-repeat;
+	background-size: cover;
+	
+}
+
+
+
 
 
 
