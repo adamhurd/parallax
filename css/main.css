@@ -647,7 +647,7 @@ p {
 }
 
 .pow1 {
-  transform: translateZ(-5px) scale(6);
+  transform: translateZ(-7px) scale(8);
   z-index: 14;
 }
 
